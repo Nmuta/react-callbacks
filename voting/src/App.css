@@ -41,8 +41,8 @@ h1 {
 }
 
 .language button {
-  color: green;
-  background-color: #0000;
+  color: rgb(255, 255, 0);
+  background-color: #000;
   border: none;
   font-size: 30px;
   outline: none;
