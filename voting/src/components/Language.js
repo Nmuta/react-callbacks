@@ -7,7 +7,9 @@ class Language extends Component {
     }
 
     count = () => {
-		this.setState({counter: this.state.counter + 1})
+		this.setState({counter: this.state.counter + 1});
+        this.props.masterCounter();
+        this.props.updateLastVoted(this.props.language);
 	}
 
     render(){
